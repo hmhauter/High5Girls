@@ -1,0 +1,126 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="controls_whileForever" id="5_zT1-/J@7)]Jq/war*;" x="472" y="1379">
+    <statement name="DO">
+      <block type="controls_if" id="z=f8I~rY:V9%_kH~8N^Q">
+        <mutation elseif="2"/>
+        <value name="IF0">
+          <shadow type="logic_boolean" id="clZH)O9x!?i3X[aR6yln">
+            <field name="BOOL">TRUE</field>
+          </shadow>
+          <block type="fable_spin_color_found" id="IW.J~j4r/4yH[o!o%k{{">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="COLOUR">[100, 0, 0]</field>
+            <field name="ID">QLQ</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="fable_spin_spin_with_speed" id=":0pf}jO^iW[T9DV!:0}2">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="METRIC">'degrees'</field>
+            <field name="ID">QLQ</field>
+            <value name="TURNS">
+              <shadow type="math_number" id="R!~6G$)4YGxU,yx`Kw;O">
+                <field name="NUM">-90</field>
+              </shadow>
+            </value>
+            <value name="SPEED">
+              <shadow type="math_number" id="QTK,V;wK?(Zt7QCP0[XE">
+                <field name="NUM">100</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="fable_wait" id="bmZ6nt}]|LvQ8b63W3+I">
+                <value name="WAIT">
+                  <shadow type="math_number" id="[.KAk8hODa^G9}?03#%p">
+                    <field name="NUM">5</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="fable_spin_color_found" id="5vo/X2:qCibWY)a13krs">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="COLOUR">[0, 0, 100]</field>
+            <field name="ID">QLQ</field>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="fable_spin_spin_with_speed" id="x4sy6^ZRS44eyTp%mr1I">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="METRIC">'degrees'</field>
+            <field name="ID">QLQ</field>
+            <value name="TURNS">
+              <shadow type="math_number" id="Jn_?4jb`^iW,.T5z[8:=">
+                <field name="NUM">90</field>
+              </shadow>
+            </value>
+            <value name="SPEED">
+              <shadow type="math_number" id="tJUyud*Vnga%fQ2)BBfi">
+                <field name="NUM">100</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="fable_wait" id="cyQsgN]f+w}yZJ-e-I(9">
+                <value name="WAIT">
+                  <shadow type="math_number" id="XCy4Wu~N,W131,BRrQ.t">
+                    <field name="NUM">5</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF2">
+          <block type="fable_spin_obstacle_detected" id="q4Uu#PZ~vREJbxLCs$0a">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="ID">QLQ</field>
+            <value name="PROXIMITY_PERC">
+              <shadow type="math_number" id="Q]m}t0l`aY}~vGT|iw7b">
+                <field name="NUM">10</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <statement name="DO2">
+          <block type="fable_spin_set_speed" id="@Y62PAvG5lI4%hksR9oC">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="ID">QLQ</field>
+            <value name="MOTOR_A_SPEED">
+              <shadow type="math_number" id="Zoy7s_mxA]e-*2758|(X">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="MOTOR_B_SPEED">
+              <shadow type="math_number" id="ZG(@`~p^b*thz1j4S]l%">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="fable_wait" id="589h8+8z6-.2[[LQ^vhu">
+                <value name="WAIT">
+                  <shadow type="math_number" id="7,-A;NT:#Q@q=3[q?T7[">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="controls_flow_statements" id="rJM({x1J|_9Hw@Gu(%]I">
+                    <field name="FLOW">BREAK</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="fable_set_speed_simple" id="KWI?^-B+G2apg|)jcj$a">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="MOVEMENT">forward</field>
+            <field name="ID">QLQ</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

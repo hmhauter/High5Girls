@@ -1,0 +1,363 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="fable_spin_drive_with_speed" id="S+R.zOuHIGbc6a=OewhP" x="574" y="64">
+    <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+    <field name="METRIC">'cm'</field>
+    <field name="ID">QLQ</field>
+    <value name="DISTANCE">
+      <shadow type="math_number" id="6?HZ~Gu[SMlF1k4GNR=.">
+        <field name="NUM">125</field>
+      </shadow>
+    </value>
+    <value name="SPEED">
+      <shadow type="math_number" id="W(R6YQ?-/p)1eq.DsyKD">
+        <field name="NUM">200</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="fable_wait" id="PvBkzGe;`9owq:dOUWyd">
+        <value name="WAIT">
+          <shadow type="math_number" id="5{/-H0O-9U+-]VSrOV7W">
+            <field name="NUM">5</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="fable_spin_spin_with_speed" id="op4.m[-ZBWXEcsBrtG?D">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+            <field name="METRIC">'degrees'</field>
+            <field name="ID">QLQ</field>
+            <value name="TURNS">
+              <shadow type="math_number" id="L@eezNuY,syR~F{j0EBG">
+                <field name="NUM">-90</field>
+              </shadow>
+            </value>
+            <value name="SPEED">
+              <shadow type="math_number" id="@r!q+l!hQn==K.AINUOu">
+                <field name="NUM">100</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="fable_wait" id="-K!FVj6e~$%/+wFFp5!%">
+                <value name="WAIT">
+                  <shadow type="math_number" id="@Nuc`LE]K_5t0^u-33E?">
+                    <field name="NUM">5</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="fable_spin_drive_with_speed" id="#B?s5dpmAEH/2v`/ox$G">
+                    <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                    <field name="METRIC">'cm'</field>
+                    <field name="ID">QLQ</field>
+                    <value name="DISTANCE">
+                      <shadow type="math_number" id="DUXPe5pR`jIY_pQ{):Gn">
+                        <field name="NUM">74</field>
+                      </shadow>
+                    </value>
+                    <value name="SPEED">
+                      <shadow type="math_number" id="jbfiQcrT=AI6DtwL]TzT">
+                        <field name="NUM">150</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="fable_wait" id="f9jq,?C;GJTSNC.gpZRd">
+                        <value name="WAIT">
+                          <shadow type="math_number" id="/MJ~*_^*HDc^PFxJa`l|">
+                            <field name="NUM">5</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="fable_spin_spin_with_speed" id="`KBVRLQ)RL%jX!OY{UW]">
+                            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                            <field name="METRIC">'degrees'</field>
+                            <field name="ID">QLQ</field>
+                            <value name="TURNS">
+                              <shadow type="math_number" id="u8CF0cUM%zWxS[#@Hoht">
+                                <field name="NUM">90</field>
+                              </shadow>
+                            </value>
+                            <value name="SPEED">
+                              <shadow type="math_number" id="FiN8YxL5:_KA{W0MuwuS">
+                                <field name="NUM">100</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="fable_wait" id="2Uw/+$)jjKSaL~9#{){Z">
+                                <value name="WAIT">
+                                  <shadow type="math_number" id="RCA0l5E[DWAl~eo5N.h]">
+                                    <field name="NUM">5</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="fable_spin_drive_with_speed" id="aX?:!MZm21,_tg]H5Ll2">
+                                    <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                    <field name="METRIC">'cm'</field>
+                                    <field name="ID">QLQ</field>
+                                    <value name="DISTANCE">
+                                      <shadow type="math_number" id="LZ+dhUA!0S)3W^@zwQWO">
+                                        <field name="NUM">84</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="SPEED">
+                                      <shadow type="math_number" id=",dy@0#5el/83I7v|URjj">
+                                        <field name="NUM">200</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="fable_wait" id="S$zHrq_l(hjHW+EIpy-_">
+                                        <value name="WAIT">
+                                          <shadow type="math_number" id="UsXpa(#LUJ*PW3gDGiqi">
+                                            <field name="NUM">5</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="fable_spin_spin_with_speed" id="Kwc~D+mwYbpj@,w*(z5V">
+                                            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                            <field name="METRIC">'degrees'</field>
+                                            <field name="ID">QLQ</field>
+                                            <value name="TURNS">
+                                              <shadow type="math_number" id="_7p(!S@(lwrt={,SAE?8">
+                                                <field name="NUM">90</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="SPEED">
+                                              <shadow type="math_number" id="?ij6}dM]R)99wJgquLJ8">
+                                                <field name="NUM">100</field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="fable_wait" id="T,)?A/{-#-__Vu(^R44+">
+                                                <value name="WAIT">
+                                                  <shadow type="math_number" id="I23Yr8T}Tjf=Wa!iWTpr">
+                                                    <field name="NUM">5</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="fable_spin_drive_with_speed" id="liD[MIM8XqKs?o/hww-^">
+                                                    <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                                    <field name="METRIC">'cm'</field>
+                                                    <field name="ID">QLQ</field>
+                                                    <value name="DISTANCE">
+                                                      <shadow type="math_number" id="mO`iw[{1?e@%_/DTrPyA">
+                                                        <field name="NUM">100</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <value name="SPEED">
+                                                      <shadow type="math_number" id="|acTkU^^EZ33Ve;iMD+`">
+                                                        <field name="NUM">200</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="fable_wait" id="CV:D;moUnF]pV`LBX{wg">
+                                                        <value name="WAIT">
+                                                          <shadow type="math_number" id="YiaQD(RY_Ezgz_GIN/sk">
+                                                            <field name="NUM">5</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <next>
+                                                          <block type="fable_spin_spin_with_speed" id="!:tXZR^;/~2iK],^oS%=">
+                                                            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                                            <field name="METRIC">'degrees'</field>
+                                                            <field name="ID">QLQ</field>
+                                                            <value name="TURNS">
+                                                              <shadow type="math_number" id="1*K$uvC]4l(#8L$T[6w?">
+                                                                <field name="NUM">-90</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <value name="SPEED">
+                                                              <shadow type="math_number" id="z]IqKsVS^.`@ewK{8ht7">
+                                                                <field name="NUM">100</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="fable_wait" id="5{0ry$|`XfWh-Ed(Aq!}">
+                                                                <value name="WAIT">
+                                                                  <shadow type="math_number" id=".d-!ic/2IN]T#SzW6Fb7">
+                                                                    <field name="NUM">5</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="fable_spin_drive_with_speed" id="I%e2brR8pS.XoC{5Gv3J">
+                                                                    <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                                                    <field name="METRIC">'cm'</field>
+                                                                    <field name="ID">QLQ</field>
+                                                                    <value name="DISTANCE">
+                                                                      <shadow type="math_number" id="AGz0S!e%n=By@:Bk3y5Y">
+                                                                        <field name="NUM">81</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <value name="SPEED">
+                                                                      <shadow type="math_number" id="g$Efqi^)*lo3b$j-WH_r">
+                                                                        <field name="NUM">200</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="fable_wait" id="MC_u4`w+@,Q~#Lm#=T)s">
+                                                                        <value name="WAIT">
+                                                                          <shadow type="math_number" id="tpLL/UWbCD?G;9rv8)@y">
+                                                                            <field name="NUM">5</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="fable_spin_spin_with_speed" id="Ggc;Hcwfz`mZd=L:,ui0">
+                                                                            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                                                            <field name="METRIC">'degrees'</field>
+                                                                            <field name="ID">QLQ</field>
+                                                                            <value name="TURNS">
+                                                                              <shadow type="math_number" id="`jqwUo6U++_WD}s5Oo}Y">
+                                                                                <field name="NUM">90</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <value name="SPEED">
+                                                                              <shadow type="math_number" id="_~e:R#I;dJ.92,@d|w.Y">
+                                                                                <field name="NUM">100</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="fable_wait" id="6T7z)_HKTq:02Y-xGlQK">
+                                                                                <value name="WAIT">
+                                                                                  <shadow type="math_number" id="+LOkc$WscaNGqWY4F.Y3">
+                                                                                    <field name="NUM">5</field>
+                                                                                  </shadow>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="fable_spin_drive_with_speed" id="A9HJ5gxx$S4MN#csGx0*">
+                                                                                    <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                                                                    <field name="METRIC">'cm'</field>
+                                                                                    <field name="ID">QLQ</field>
+                                                                                    <value name="DISTANCE">
+                                                                                      <shadow type="math_number" id="3vQk:Sm[!ZMDa@yF4r/(">
+                                                                                        <field name="NUM">77</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                    <value name="SPEED">
+                                                                                      <shadow type="math_number" id="Df*YG`%#qF#!.VlUsP,x">
+                                                                                        <field name="NUM">200</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="fable_wait" id="b0pw==FKN:^q$7}Q.q8^">
+                                                                                        <value name="WAIT">
+                                                                                          <shadow type="math_number" id="C{.;:WWpr(orF%H%$^I#">
+                                                                                            <field name="NUM">5</field>
+                                                                                          </shadow>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="fable_spin_spin_with_speed" id="8hVXCaJ!Co:*MCq,o|w!">
+                                                                                            <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                                                                            <field name="METRIC">'degrees'</field>
+                                                                                            <field name="ID">QLQ</field>
+                                                                                            <value name="TURNS">
+                                                                                              <shadow type="math_number" id=",@7wSRhOK$pC;_U-GaOO">
+                                                                                                <field name="NUM">-90</field>
+                                                                                              </shadow>
+                                                                                            </value>
+                                                                                            <value name="SPEED">
+                                                                                              <shadow type="math_number" id="0t,!0W7StA}F*HsjfYJP">
+                                                                                                <field name="NUM">100</field>
+                                                                                              </shadow>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="fable_wait" id="FZ0*FFHzF.6A0r+D3[+R">
+                                                                                                <value name="WAIT">
+                                                                                                  <shadow type="math_number" id="-ZO,V+p[t9l%!2l9xL;t">
+                                                                                                    <field name="NUM">5</field>
+                                                                                                  </shadow>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="fable_spin_drive_with_speed" id="pC6]uo5f%MCl]EDH]0wq">
+                                                                                                    <mutation xmlns="http://www.w3.org/1999/xhtml" id_input="false"></mutation>
+                                                                                                    <field name="METRIC">'cm'</field>
+                                                                                                    <field name="ID">QLQ</field>
+                                                                                                    <value name="DISTANCE">
+                                                                                                      <shadow type="math_number" id="MUgg;)F7CTV;{.ak/BpT">
+                                                                                                        <field name="NUM">38</field>
+                                                                                                      </shadow>
+                                                                                                    </value>
+                                                                                                    <value name="SPEED">
+                                                                                                      <shadow type="math_number" id="6[apZ(irrA$EG`#$m#va">
+                                                                                                        <field name="NUM">200</field>
+                                                                                                      </shadow>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="fable_wait" id=":w^|xC%_!8lk$wO-tMqM">
+                                                                                                        <value name="WAIT">
+                                                                                                          <shadow type="math_number" id="D4KL~7-BK0LP.8hlQiAX">
+                                                                                                            <field name="NUM">5</field>
+                                                                                                          </shadow>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="fable_speak_lang" id="9xv2Ds=G5V0GwEW;Sw.%">
+                                                                                                            <field name="LANGUAGE">en</field>
+                                                                                                            <value name="INPUT_TEXT">
+                                                                                                              <shadow type="text" id="%Gzba[+hivQS5h;$^2T?">
+                                                                                                                <field name="TEXT">Hello. Keep calm. We are here to rescue you! </field>
+                                                                                                              </shadow>
+                                                                                                            </value>
+                                                                                                            <next>
+                                                                                                              <block type="fable_wait" id="nh;DJVq2mYW2cJ6z_fA+">
+                                                                                                                <value name="WAIT">
+                                                                                                                  <shadow type="math_number" id="FIYtKJ#:0Wn1/KyfOH`9">
+                                                                                                                    <field name="NUM">2</field>
+                                                                                                                  </shadow>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="fable_play_sound" id="`}Zz!`^LEJno9lD^R19J">
+                                                                                                                    <field name="SOUNDFILE">boing.wav</field>
+                                                                                                                    <field name="MODULE">PC</field>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
